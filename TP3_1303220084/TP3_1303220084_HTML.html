@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TP3_1303220084.css">
+    <title>1303220084 - Irenne Devita Irawan</title>
+</head>
+
+<body>
+
+    <div class="container"> <!-- (div) digunakan untuk membungkus seluruh konten -->
+        
+        <h1>PROFILE DIRI</h1>
+
+        
+        <img src="./foto/pasFoto.jpg" alt="Foto Profil" class="profile-photo"> <!-- (img) digunakan untuk menampilkan gambar profil -->
+
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya adalah mahasiswi Telkom University angkatan 2022 dari jurusan S1 Teknologi Informasi.</p>
+
+        
+        <table> <!-- (table) digunakan untuk menata data dalam bentuk tabel -->
+            <tr>
+                
+                <th>Nama</th>
+                <td>Irenne Devita Irawan</td>
+            </tr>
+            <tr>
+                <th>Tanggal Lahir</th> <!-- (th) digunakan untuk memberikan judul pada tabel -->
+                <td>27 Mei 2004</td> <!-- (td) digunakan untuk untuk memberikan data pada tabel -->
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>irennedevita@student.telkomuniversity.ac.id</td>
+            </tr>
+        </table>
+
+        <h2>Video Perkenalan</h2><!-- (h2) digunakan untuk menebalkan font/ mengubah tulisan menjadi judul -->
+
+        
+        <video controls> <!-- (video) digunakan untuk menampilkan video -->
+            <source src="./video/videoPerkenalan.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video.
+        </video>
+
+        <h2>Keterampilan</h2>
+        <table>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+
+        <div class="form-section">
+            <h2>Hubungi Saya</h2>
+
+            
+            <form><!-- (form) digunakan untuk membuat formulir yang dapat diisi -->
+                
+                <label for="name">Nama:</label><!-- (label) digunakan untuk memberi label sebuah inputan -->
+                <input type="text" id="name" name="name" required><br><br><!-- (input) digunakan untuk menerima masukan -->
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+                
+                <button type="submit">Kirim</button><!-- (button) digunakan untuk membuat tombol submit -->
+            </form>
+        </div>
+
+        <div class="link-section">
+            <h2>Media Sosial</h2>
+            
+            <a href="https://www.instagram.com/irennedevita/?hl=en" target="_blank">Instagram</a> | <!-- (a) digunakan untuk membuat tautan -->
+            <a href="https://www.linkedin.com/in/irenne-devita-irawan-a12472308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="_blank"> LinkedIn</a>|
+            <a href="https://github.com/imerare" target="_blank"> GitHub</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
